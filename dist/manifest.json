@@ -1,0 +1,17 @@
+{
+  "name": "BALZEBUZZ STUDIO — Color Advisor",
+  "short_name": "BALZEBUZZ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Strumento professionale per pianificare palette e look fotografici.",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
