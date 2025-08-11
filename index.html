@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Manifest per PWA -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Icona iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="BALZEBUZZ STUDIO" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Icona browser -->
+    <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
+
+    <title>BALZEBUZZ STUDIO — Color Advisor</title>
+
+    <style>
+      /* Sfondo gradiente professionale */
+      body {
+        background: linear-gradient(135deg, #0a0a0a, #1c1c1c, #2b2b2b);
+        color: #f5f5f5;
+        font-family: 'Segoe UI', Roboto, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
